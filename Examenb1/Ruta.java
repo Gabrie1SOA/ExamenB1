@@ -8,10 +8,11 @@ public class Ruta extends Pasajero{
 
     public Ruta(String cliente, double rutaQG, double rutaQP, double rutaQT, double rutaQR){
         super(cliente);
-        this.rutaQG=20.00;
-        this.rutaQP=15.00;
-        this.rutaQT=17.50;
-        this.rutaQR=17.50;
+
+        this.rutaQG=rutaQG;
+        this.rutaQP=rutaQP;
+        this.rutaQT=rutaQT;
+        this.rutaQR=rutaQR;
     }
 
     @Override

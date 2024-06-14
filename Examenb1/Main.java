@@ -1,17 +1,20 @@
 package Examenb1;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        Ticket tk1=new Ticket("Juan",20.00,17.50,15,17.50,0,0,"123456");
+        Ticket tk2=new Ticket("Pedro",20.00,17.50,15,17.50,0.3,3,"123456");
+        Ticket tk3=new Ticket("Pepe",20.00,17.50,15,17.50,0.3,0,"123456");
+        Ticket tk4=new Ticket("Jose",20.00,17.50,15,17.50,0,3,"123456");
+        Ticket tk5=new Ticket("Maria",20.00,17.50,15,17.50,0.3,0,"123456");
+        Ticket tk6=new Ticket("Daniel",20.00,17.50,15,17.50,0,3,"123456");
+        tk1.calcularcosto();
+        tk2.calcularcosto();
+        tk3.calcularcosto();
+        tk4.calcularcosto();
+        tk5.calcularcosto();
+        tk6.calcularcosto();
+
     }
 }

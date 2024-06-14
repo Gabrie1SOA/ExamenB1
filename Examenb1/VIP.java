@@ -8,8 +8,13 @@ public class VIP extends Ruta{
         this.recargo=recargo;
     }
 
+
+
     @Override
     public void mostrarInfo() {
         System.out.print("Recargo adicional VIP: "+recargo);
     }
+
+
+
 }
