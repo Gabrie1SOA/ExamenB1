@@ -14,4 +14,9 @@ public class Ruta extends Pasajero{
         this.rutaQR=17.50;
     }
 
+    @Override
+    public void mostrarInfo() {
+        System.out.println("\nPrecio ruta Quito-Guayaquil: "+rutaQG+"\nPrecio ruta Quito-Puyo: "+rutaQP+"\nPrecio ruta Quito-Tulcán: "+rutaQT+"\nPrecio ruta Quito-Riobamba: "+rutaQR);
+    }
+
 }
